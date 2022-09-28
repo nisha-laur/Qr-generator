@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Icard</title>
+    <link rel="stylesheet" href=" https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+    <link rel="stylesheet" href="icard.css">
+</head>
+
+<body>
+    <div class="container convert">
+        <h1 class="text-center"   >QR VCard Generator</h1>
+        <form class="form-inline">
+            <div class="row">
+                <div class="form-group col-sm-3">
+                    <label for="firstName">First Name</label>
+                    <br>
+                    <input type="text" class="form-control" id="firstName">
+                </div>
+                <div class="form-group col-sm-3">
+                    <label for="lastName">Last Name</label>
+                    <br>
+                    <input type="text" class="form-control" id="lastName">
+                </div>
+                <div class="form-group col-sm-3">
+                    <label for="posTitle">Position Title</label>
+                    <br>
+                    <input type="text" class="form-control" id="posTitle">
+                </div>
+                <div class="form-group col-sm-3">
+                    <label for="coName">Company/Organization</label>
+                    <br>
+                    <input type="text" class="form-control" id="coName">
+                </div>
+                <div class="form-group col-sm-3">
+                    <label for="addyStreet">Street</label>
+                    <br>
+                    <input type="text" class="form-control" id="addyStreet">
+                </div>
+                <div class="form-group col-sm-3">
+                    <label for="addyCity">City</label>
+                    <br>
+                    <input type="text" class="form-control" id="addyCity">
+                </div>
+                <div class="form-group col-sm-3">
+                    <label for="addyState">State</label>
+                    <br>
+                    <input type="text" class="form-control" id="addyState">
+                </div>
+                <div class="form-group col-sm-3">
+                    <label for="addyZip">Zip Code</label>
+                    <br>
+                    <input type="text" class="form-control" id="addyZip">
+                </div>
+                <div class="form-group col-sm-3">
+                    <label for="addyCountry">Country</label>
+                    <br>
+                    <input type="text" class="form-control" id="addyCountry">
+                </div>
+                <div class="form-group col-sm-3">
+                    <label for="emailPersonal">Email (Personal)</label>
+                    <br>
+                    <input type="email" class="form-control col-sm-4" id="emailPersonal"
+                        placeholder="john.doe@example.com">
+                </div>
+                <div class="form-group col-sm-3">
+                    <label for="emailBusiness">Email (Business)</label>
+                    <br>
+                    <input type="email" class="form-control col-sm-4" id="emailBusiness"
+                        placeholder="john.doe@example.com">
+                </div>
+                <div class="form-group col-sm-3">
+                    <label for="phonePersonal">Phone (Personal)</label>
+                    <br>
+                    <input type="tel" class="form-control col-sm-4" id="phonePersonal" placeholder="###-###-####">
+                </div>
+                <div class="form-group col-sm-3">
+                    <label for="phoneMobile">Phone (Mobile)</label>
+                    <br>
+                    <input type="tel" class="form-control col-sm-4" id="phoneMobile" placeholder="###-###-####">
+                </div>
+                <div class="form-group col-sm-3">
+                    <label for="phoneBusiness">Phone (Business)</label>
+                    <br>
+                    <input type="tel" class="form-control col-sm-4" id="phoneBusiness" placeholder="###-###-####">
+                </div>
+                <div class="form-group col-sm-3">
+                    <label for="website">Website</label>
+                    <br>
+                    <input type="url" class="form-control col-sm-4" id="website" placeholder="http://www.example.com">
+                </div>
+            </div>
+            <p class="small">Using the API from <a href="http://goqr.me/api/" target="_blank">GoQR.me</a>.</p>
+            <!-- <div class="qr-out row " >
+                <img class="qr-img" alt="">
+               
+            </div> -->
+            
+            <div class="bothsides  "   style=" margin-top: 101px;">
+                <div class="eithersides">
+                    <div class="digitalidcard" >
+                        <div class="id-card-tag"></div>
+                        <div class="id-card-tag-strip"></div>
+                        <div class="id-card-hook"></div>
+                        <div class="id-card-holder">
+                            <div class="id-card">
+                                <div class="biscard-out"></div>
+                                <div class="header">
+                                    <img
+                                        src="https://teensofgod.org/wp-content/uploads/2021/01/TOG-Logo.png">
+                                </div>
+                                <div class="photo">
+                                    <img
+                                        src="https://media.licdn.com/mpr/mpr/shrinknp_200_200/AAEAAQAAAAAAAAuXAAAAJDE2YjQzOGZkLTU5YzAtNGRkNC04NTUzLTM3Zjg0ZWVlMGQxZA.jpg" style="visibility: hidden;"  >
+                                </div>
+                               
+                                <h2 style="visibility: hidden;">Kiran Das DA</h2>
+                                <div class="qr-code" >
+                                    <img
+                                        src="https://www.shopify.com/growth-tools-assets/qr-code/shopify-faae7065b7b351d28495b345ed76096c03de28bac346deb1e85db632862fd0e4.png" style="visibility: hidden;">
+                                </div>
+                                <h3 style="visibility: hidden;">www.onetikk.info</h3>
+                                
+                                <p style="visibility: hidden;"><strong>"PENGG"</strong>HOUSE,4th Floor, TC 11/729(4), Division Office Road
+                                <p>
+                                <p style="visibility: hidden;">Near PMG Junction, Thiruvananthapuram Kerala, India <strong>695033</strong></p>
+                                <p style="visibility: hidden;">Ph: 9446062493 | E-ail: info@onetikk.info</p>
+        
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="eithersides" >
+                 
+                    <div class="digitalidcard">
+                        <div class="id-card-tag"></div>
+                        <div class="id-card-tag-strip"></div>
+                        <div class="id-card-hook"></div>
+                        <div class="id-card-holder">
+                            <div class="id-card">
+                                <div class="qr-out row">
+                                    <img class="qr-img" alt="" style="
+                                    height: 126px;
+                                    position: absolute;
+                                    bottom: 11px;
+                                    left: 52px;
+                                ">
+                                </div>
+                                <div class="header">
+                                    <img
+                                        src="https://teensofgod.org/wp-content/uploads/2021/01/TOG-Logo.png">
+                                </div>
+                                <div class="photo">
+                                    <img
+                                        src="https://media.licdn.com/mpr/mpr/shrinknp_200_200/AAEAAQAAAAAAAAuXAAAAJDE2YjQzOGZkLTU5YzAtNGRkNC04NTUzLTM3Zjg0ZWVlMGQxZA.jpg"  style="visibility: hidden;">
+                                </div>
+                               
+                                <h2 style="visibility: hidden;">Kiran Das DA</h2>
+                                <div class="qr-code" style="visibility: hidden;">
+                                    <img
+                                        src="https://www.shopify.com/growth-tools-assets/qr-code/shopify-faae7065b7b351d28495b345ed76096c03de28bac346deb1e85db632862fd0e4.png">
+                                </div>
+                                <h3 style="visibility: hidden;">www.onetikk.info</h3>
+                                
+                                <p style="visibility: hidden;"><strong>"PENGG"</strong>HOUSE,4th Floor, TC 11/729(4), Division Office Road
+                                <p>
+                                <p style="visibility: hidden;">Near PMG Junction, Thiruvananthapuram Kerala, India <strong>695033</strong></p>
+                                <p style="visibility: hidden;">Ph: 9446062493 | E-ail: info@onetikk.info</p>
+        
+                            </div>
+                        </div>
+                </div>
+                </div>
+               
+           <button id="btnpreveiw" >Print</button>
+              </div>
+            <div class="result"></div>
+        </form>
+    </div>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  
+
+<script src="html2canvas.js"></script>
+<script src="icard.js"></script>
+</body>
+
+</html>
